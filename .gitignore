@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env311/
+venv/
+.env
+
+# Distribution / Build
+build/
+dist/
+*.spec
+!voice_server.spec
+
+# PyInstaller
+*.manifest
+
+# VS Code
+.vscode/
+
+# Project specific
+agents/
+tts/
+config.json
+*.exe
