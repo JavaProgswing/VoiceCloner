@@ -1,4 +1,4 @@
-# TTS-VC Project
+# Coqui TTS Voice Cloner
 
 This project provides a voice cloning Python application that compiles to an executable. It is designed to be generic, allowing for different "agents" (voices) to be used for text-to-speech generation.
 
@@ -15,7 +15,7 @@ The project uses a `config.json` file to define the executable name and potentia
 ## Usage
 
 1.  **Agents**: Place your reference audio files (mp3) in the `agents` folder. The filename (without extension) will be the agent's name.
-2.  **Running**: Run the generated executable or the `voice_server.py` script.
+2.  **Running**: Run the generated executable or the `voice_server.py` script, server runs at localhost:5005
 3.  **API**: The server exposes a `/speak` endpoint.
     -   **Method**: POST
     -   **Body**:
