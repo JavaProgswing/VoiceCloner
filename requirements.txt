@@ -1,5 +1,7 @@
 uvicorn
 fastapi
-torch==2.5.1 torchvision torchaudio
+torch==2.5.1 
+torchvision 
+torchaudio
 coqui-tts
 pyinstaller

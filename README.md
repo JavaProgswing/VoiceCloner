@@ -33,7 +33,19 @@ The project uses a `config.json` file to define the executable name and potentia
 - **Size**: The executable size is kept reasonable by excluding heavy GPU dependencies.
 - **GPU Support**: A separate branch exists that supports CPU/CUDA GPU, but the resulting executable size is significantly larger.
 
-## Setup
+## Setup and Building
+
+### Quick Start (Recommended)
+
+Simply run the automated build script, which will create the virtual environment, install dependencies, and build the executable:
+
+```bat
+run_cmd.bat
+```
+
+### Manual Setup (Optional)
+
+If you prefer to set up manually:
 
 1.  **Create Virtual Environment**: Create a Python 3.11 virtual environment named `env311`:
 
@@ -48,16 +60,15 @@ The project uses a `config.json` file to define the executable name and potentia
     ```
 
 3.  **Install Dependencies**:
+
     ```bat
     pip install -r requirements.txt
     ```
 
-## Building
+4.  **Build the Executable**:
 
-To build the executable, activate your virtual environment and run:
-
-```bat
-python -O -m PyInstaller voice_server.spec
-```
+    ```bat
+    python -O -m PyInstaller voice_server.spec
+    ```
 
 This command uses PyInstaller with the `voice_server.spec` file, which reads configuration from `config.json`.
