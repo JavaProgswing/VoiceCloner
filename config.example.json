@@ -1,8 +1,8 @@
 {
-  "executable_name": "agent-server.exe",
+  "executable_name": "voice-cloner.exe",
   "version": "1.0.0.0",
-  "company_name": "My Company",
-  "product_name": "My Product",
-  "file_description": "My File Description",
+  "company_name": "Your Company Name",
+  "product_name": "Your Product Name",
+  "file_description": "File Description",
   "copyright": "Copyright © 2025"
 }

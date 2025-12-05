@@ -5,7 +5,7 @@ import os
 with open('config.json', 'r') as f:
     config = json.load(f)
 
-exe_name = config.get('executable_name', 'voice_server')
+exe_name = config.get('executable_name', 'voice-cloner')
 
 # Generate file_version.txt dynamically
 version_str = config.get('version', '1.0.0.0')
@@ -14,9 +14,9 @@ try:
 except ValueError:
     version_tuple = (1, 0, 0, 0)
 
-company_name = config.get('company_name', 'ValorantNarrator')
-product_name = config.get('product_name', 'ValorantNarrator')
-file_description = config.get('file_description', 'ValorantNarrator Agent Voices')
+company_name = config.get('company_name', 'Your Company Name')
+product_name = config.get('product_name', 'Your Product Name')
+file_description = config.get('file_description', 'File Description')
 copyright_str = config.get('copyright', 'Copyright © 2025')
 
 version_file_content = f"""# UTF-8

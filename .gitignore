@@ -25,3 +25,4 @@ agents/
 tts/
 config.json
 *.exe
+file_version.txt
