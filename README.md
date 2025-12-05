@@ -72,3 +72,7 @@ If you prefer to set up manually:
     ```
 
 This command uses PyInstaller with the `voice_server.spec` file, which reads configuration from `config.json`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
